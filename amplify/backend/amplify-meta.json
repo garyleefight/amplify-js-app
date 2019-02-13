@@ -1,0 +1,47 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-js-app-20190213105456-authRole",
+			"UnauthRoleArn": "arn:aws:iam::382786123233:role/amplify-js-app-20190213105456-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::382786123233:role/amplify-js-app-20190213105456-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "amplify-js-app-20190213105456-deployment",
+			"UnauthRoleName": "amplify-js-app-20190213105456-unauthRole",
+			"StackName": "amplify-js-app-20190213105456",
+			"StackId": "arn:aws:cloudformation:us-west-2:382786123233:stack/amplify-js-app-20190213105456/dc134ef0-2fc0-11e9-81df-0afd1ad467bc"
+		}
+	},
+	"auth": {
+		"cognitof277c287": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-js-app-20190213105456-deployment/amplify-cfn-templates/auth/cognitof277c287-cloudformation-template.yml",
+				"logicalId": "authcognitof277c287"
+			},
+			"lastPushTimeStamp": "2019-02-13T18:57:32.215Z",
+			"output": {
+				"IdentityPoolId": "us-west-2:b751ea84-8af0-4947-bf15-0bbb04a678a3",
+				"IdentityPoolName": "amplify_js_app_identitypool_fe75932e__dev"
+			},
+			"lastPushDirHash": "eH2D04gCYKoUlzhQ/s34XC+qwj8="
+		}
+	},
+	"analytics": {
+		"amplifyjsapp": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-js-app-20190213105456-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsamplifyjsapp"
+			},
+			"lastPushTimeStamp": "2019-02-13T18:57:32.215Z",
+			"output": {
+				"appName": "amplifyjsapp-dev",
+				"Region": "us-west-2",
+				"Id": "f001f22df5c648fcb53d97bdfd2daa15"
+			},
+			"lastPushDirHash": "1H0/k9hLpmisbNcoKdWBFIuq61E="
+		}
+	}
+}
